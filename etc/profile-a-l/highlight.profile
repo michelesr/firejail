@@ -8,6 +8,9 @@ include globals.local
 
 blacklist ${RUNUSER}
 
+ignore blacklist /usr/lib/liblua*
+ignore blacklist /usr/lib64/liblua*
+
 include disable-common.inc
 include disable-devel.inc
 include disable-interpreters.inc
